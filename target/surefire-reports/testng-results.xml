@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="56040" started-at="2021-09-26T13:17:45 EDT" finished-at="2021-09-26T13:18:42 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@23e028a9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="56040" started-at="2021-09-26T13:17:45 EDT" finished-at="2021-09-26T13:18:42 EDT">
+      <class name="TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@23e028a9]" name="setUpClass" is-config="true" duration-ms="198" started-at="2021-09-26T13:17:45 EDT" finished-at="2021-09-26T13:17:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@23e028a9]" name="runScenario" duration-ms="4489" started-at="2021-09-26T13:17:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-26T13:17:50 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to sign in with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[TalentTEK Sign In feature test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@23e028a9]" name="runScenario" duration-ms="1893" started-at="2021-09-26T13:17:50 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-26T13:17:52 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to sign in with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[TalentTEK Sign In feature test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@23e028a9]" name="runScenario" duration-ms="44801" started-at="2021-09-26T13:17:52 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-26T13:18:37 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to sign in with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[TalentTEK Sign In feature test]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate an element using xpath=//*[@id='profile_form']/legend
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CEGNB58', ip: '192.168.1.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id='profile_form']/legend
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CEGNB58', ip: '192.168.1.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy19.getText(Unknown Source)
+at pageObject.myProfile_page.verifyStudentLoggedIn(myProfile_page.java:23)
+at stepDef.profile.iShouldBeSuccessfullyLogIn(profile.java:13)
+at ✽.I should be successfully log in(file:///C:/Users/Ashif-Desktop/Documents/GitHub/CucumberBDD/src/test/java/features/login/login.feature:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@23e028a9]" name="runScenario" duration-ms="2616" started-at="2021-09-26T13:18:37 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-26T13:18:39 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to sign up with valid email address"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[TalentTEK Sign up feature test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@23e028a9]" name="runScenario" duration-ms="1957" started-at="2021-09-26T13:18:39 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-26T13:18:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should not be able to sign up with invalid email address"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[TalentTEK Sign up feature test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@23e028a9]" name="runScenario" duration-ms="1" started-at="2021-09-26T13:18:41 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-26T13:18:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should not be able to sign up with male radiobutton"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[TalentTEK Sign up feature test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@23e028a9]" name="runScenario" duration-ms="1" started-at="2021-09-26T13:18:41 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-26T13:18:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should not be able to sign up with female radiobutton"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[TalentTEK Sign up feature test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@23e028a9]" name="tearDownClass" is-config="true" duration-ms="61" started-at="2021-09-26T13:18:41 EDT" finished-at="2021-09-26T13:18:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

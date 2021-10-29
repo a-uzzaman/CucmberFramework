@@ -1,0 +1,561 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-26T17:17:46.269Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3994000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able to sign in with valid credentials",
+        "description": "",
+        "id": "talenttek-sign-in-feature-test;user-should-be-able-to-sign-in-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.browserClose(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at talentTEK Home Page",
+            "match": {
+              "location": "stepDef.signIn.iAmAtTalentTEKHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter student email address",
+            "match": {
+              "location": "stepDef.signIn.iEnterStudentEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter student password",
+            "match": {
+              "location": "stepDef.signIn.iEnterStudentPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepDef.signIn.iClickOnLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be successfully log in",
+            "match": {
+              "location": "stepDef.profile.iShouldBeSuccessfullyLogIn()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@prod"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T17:17:50.684Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1491000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should be able to sign in with valid credentials",
+        "description": "",
+        "id": "talenttek-sign-in-feature-test;user-should-be-able-to-sign-in-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.browserClose(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am at talentTEK Home Page",
+            "match": {
+              "location": "stepDef.signIn.iAmAtTalentTEKHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter student email address as \"qa.test559@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qa.test559@gmail.com\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDef.signIn.iEnterStudentEmailAddressAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter student password as \"Te$t1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Te$t1234\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDef.signIn.iEnterStudentPasswordAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepDef.signIn.iClickOnLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 229000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should be successfully log in",
+            "match": {
+              "location": "stepDef.profile.iShouldBeSuccessfullyLogIn()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signIn"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@prod"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T17:17:52.572Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1452000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User should be able to sign in with valid credentials",
+        "description": "",
+        "id": "talenttek-sign-in-feature-test;user-should-be-able-to-sign-in-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d94.0.4606.61)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CEGNB58\u0027, ip: \u0027192.168.1.151\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\\Users\\ASHIF-~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51044}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: abe41a0733ada654855d57018c0681be\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepDef.Hook.browserClose(Hook.java:47)\r\n",
+              "duration": 12190000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDef.Hook.browserClose(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am at talentTEK Home Page",
+            "match": {
+              "location": "stepDef.signIn.iAmAtTalentTEKHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter student email address as \"232@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"232@gmail.com\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDef.signIn.iEnterStudentEmailAddressAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter student password as \"tesfd@232\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tesfd@232\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDef.signIn.iEnterStudentPasswordAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepDef.signIn.iClickOnLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//*[@id\u003d\u0027profile_form\u0027]/legend\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CEGNB58\u0027, ip: \u0027192.168.1.151\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.getText(Unknown Source)\r\n\tat pageObject.myProfile_page.verifyStudentLoggedIn(myProfile_page.java:23)\r\n\tat stepDef.profile.iShouldBeSuccessfullyLogIn(profile.java:13)\r\n\tat ✽.I should be successfully log in(file:///C:/Users/Ashif-Desktop/Documents/GitHub/CucumberBDD/src/test/java/features/login/login.feature:26)\r\n",
+              "duration": 30995000000,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "I should be successfully log in",
+            "match": {
+              "location": "stepDef.profile.iShouldBeSuccessfullyLogIn()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signIn"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@prod"
+          }
+        ]
+      }
+    ],
+    "name": "TalentTEK Sign In feature test",
+    "description": "",
+    "id": "talenttek-sign-in-feature-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-26T17:18:37.375Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1920000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able to sign up with valid email address",
+        "description": "",
+        "id": "talenttek-sign-up-feature-test;user-should-be-able-to-sign-up-with-valid-email-address",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.browserClose(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at talentTEK Home Page",
+            "match": {
+              "location": "stepDef.signIn.iAmAtTalentTEKHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Create New Account button",
+            "match": {
+              "location": "stepDef.signIn.iClickOnCreateNewAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 540000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter student information with valid email address",
+            "match": {
+              "location": "stepDef.signUp.iEnterStudentInformationWithValidEmailAddress()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signup"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@prod"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T17:18:39.991Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1406000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User should not be able to sign up with invalid email address",
+        "description": "",
+        "id": "talenttek-sign-up-feature-test;user-should-not-be-able-to-sign-up-with-invalid-email-address",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.browserClose(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at talentTEK Home Page",
+            "match": {
+              "location": "stepDef.signIn.iAmAtTalentTEKHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Create New Account button",
+            "match": {
+              "location": "stepDef.signIn.iClickOnCreateNewAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 408000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter student information with invalid email address",
+            "match": {
+              "location": "stepDef.signUp.iEnterStudentInformationWithInvalidEmailAddress()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signup"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T17:18:41.947Z",
+        "line": 26,
+        "name": "User should not be able to sign up with male radiobutton",
+        "description": "",
+        "id": "talenttek-sign-up-feature-test;user-should-not-be-able-to-sign-up-with-male-radiobutton",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@signup"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T17:18:41.948Z",
+        "line": 29,
+        "name": "User should not be able to sign up with female radiobutton",
+        "description": "",
+        "id": "talenttek-sign-up-feature-test;user-should-not-be-able-to-sign-up-with-female-radiobutton",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@signup"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "TalentTEK Sign up feature test",
+    "description": "",
+    "id": "talenttek-sign-up-feature-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/signup/signup.feature",
+    "tags": []
+  }
+]
